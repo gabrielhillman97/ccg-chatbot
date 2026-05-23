@@ -22,7 +22,8 @@ exports.handler = async function(event) {
             <tr><td style="padding:8px;font-weight:bold;color:#555;width:160px;">Building Type</td><td style="padding:8px;">${data.buildingType || ''}</td></tr>
             <tr style="background:#fff;"><td style="padding:8px;font-weight:bold;color:#555;">Roof Age</td><td style="padding:8px;">${data.roofAge || ''}</td></tr>
             <tr><td style="padding:8px;font-weight:bold;color:#555;">Current Maintenance</td><td style="padding:8px;">${data.maintenance || ''}</td></tr>
-            <tr style="background:#fff;"><td style="padding:8px;font-weight:bold;color:#555;">Building Size</td><td style="padding:8px;">${data.buildingSize || ''} sq ft</td></tr>
+            <tr style="background:#fff;"><td style="padding:8px;font-weight:bold;color:#555;">Biggest Concern</td><td style="padding:8px;">${data.painPoint || ''}</td></tr>
+            <tr><td style="padding:8px;font-weight:bold;color:#555;">Building Size</td><td style="padding:8px;">${data.buildingSize || ''} sq ft</td></tr>
           </table>
         </div>
         <div style="background:#fff;padding:20px;border:1px solid #ddd;border-top:none;">
